@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en-us">
+ <head>
+  <meta charset="UTF-8">
+  <title>Franklin, ID | Weather Site</title>
+  <meta name="description" content="Weather site plans.">
+  <meta name="viewport" content="width=device-width">
+ </head>
+ <body>  
+     <header>
+         <img src= "images/logo.jpeg">
+            <h1>The Weather Site</h1>
+            <ul>s
+                <li>Current</li>
+                <li>Search</li>
+                <li>Franklin ID</li>
+                <li>Greenville SC</li>
+            </ul>
+        </header> 
+     <main>
+            <h1>Franklin, Iddaho</h1>
+            <ul>
+                    <li><b>Zip:</b>83237</li>
+                    <li><b>Elevation:</b>4501 ft.</li>
+                    <li><b>Location:</b>42.0135,111.8072</li>
+                </ul>
+
+            <h2><b>Temperature</b></h2>
+                    <p><b>24 F</b><br>
+                    34F 24F<br>
+                    Feels Like 21F
+                    </p>
+                    <h2><b>Wind</b></h2>
+                    <p>
+                        N
+                        2 mph
+                        <ul>
+                            <li><b>Direction:</b>NW</li>
+                            <li><b>Gusts:</b>5mph</li>
+                        </ul>
+                    </p>
+                <h2><b>Sunny</b></h2>
+
+
+  </main>
+     <footer>
+            &copy;2018 The Weather Site
+           </footer>
+ </body>
+</html>
