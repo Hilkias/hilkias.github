@@ -26,5 +26,9 @@ body{
     font-size 5vw;
 }
     
-    
+ p{
+     font-size: 2em;
+ }   
 
+/* 4. Larger Screen Rules */
+ @media screen and (max-width: )
