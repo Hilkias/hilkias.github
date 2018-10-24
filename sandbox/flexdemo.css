@@ -1,0 +1,7 @@
+#background{
+    display: flex;
+    justify-content: space-around;
+}
+section{
+     border: 1px dashed black;
+} 
