@@ -1,7 +1,15 @@
-#background{
-    display: flex;
-    justify-content: space-around;
-}
 section{
-     border: 1px dashed black;
-} 
+    border: 1px dashed black;
+}
+
+
+@media screen and (min-width: 760px){
+    #background, nav>ul{
+        display: flex;
+        justify-content: space-around
+    }
+}
+#hourly-temps>ul{
+    display: flex;
+
+}
