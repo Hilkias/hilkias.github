@@ -1,0 +1,205 @@
+/* 1. import statements * /
+@import url('https://fonts.googlepis.com/css?family=sansita');
+
+/* 2. General Style Rules * /
+
+/* 3. Typography section */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+    {
+        font-family: 'Sansita' , sans-serif;
+    
+    }
+
+    body {
+        font-family: helvetica, sam serif;
+        font-size: 18px;
+    }
+
+    /* 3. Mobile Rules */
+    #dial {
+        height: 150px;
+        width: 150px;
+        background: no-repeat center/85% url('weather/images/wind-pointer.png');
+        z-index: 100;
+        margin: -.6em auto 0;
+        transform: rotate(270deg);
+       }
+
+       #dial.n{
+        transform: rotate(0deg);
+       }
+       #dial.ne{
+        transform: rotate(45deg);
+       }
+       #dial.nw{
+        transform: rotate(315deg);
+       }
+       #dial.e{
+        transform: rotate(90deg);
+       }
+       #dial.s{
+        transform: rotate(180deg);
+       }
+       #dial.sw{
+        transform: rotate(225deg);
+       }
+       #dial.se{
+        transform: rotate(135deg);
+       }
+       #dial.w{
+        transform: rotate(270deg);
+       }
+
+    .TheWeatherSite {
+        font-size: 5vw;
+    }
+
+    #Container {
+width: 100%;
+margin: 0 auto;
+    }
+
+    header {
+        display: flex;
+        font-weight: bold;
+    }
+
+    header p{
+        align-self: center;
+    }
+
+    nav {
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        background-color: white;
+    }
+
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 0;
+    }
+
+    main section{
+        border: 1px solid black;
+        border-radius: 10px;
+        text-align: center;
+        width: 60%;
+    }
+
+    
+    
+    .red{
+        color: red;
+    }
+
+    .blue{
+        color: blue;
+    }
+
+    .big{
+        font-size: 3em;
+    }
+
+    .small{
+        font-size: .8em;
+    }
+
+    section img{
+        width: 85%;
+    }
+     #forecast{
+         display: none;
+     }
+
+     a:hover{
+         background-color: cadetblue;
+         padding: 5px;
+     }
+     #weatherContent section{
+         padding: 5px;
+     }
+     #weatherContent {
+        background-size: cover;
+       }
+
+       /* Background pictures for summary */
+.clear {
+    background-image: url("responsive_media/images/clear_400.jpg");
+   }/* Background pictures for summary */
+.rain {
+    background-image: url("responsive_media/images/rain_400.jpg");
+   }/* Background pictures for summary */
+.snow {
+    background-image: url("responsive_media/images/snow_400.jpg");
+   }/* Background pictures for summary */
+.fog {
+    background-image: url("responsive_media/images/fog_400.jpg");
+   }/* Background pictures for summary */
+.clouds {
+    background-image: url("responsive_media/images/clouds_400.jpg");
+   }
+
+/*LARGE VIEW*/
+     @media only screen and (min-width: 750px) {
+        .clear {
+            background-image: url("responsive_media/images/clear_800.jpg");
+           }/* Background pictures for summary */
+        .rain {
+            background-image: url("responsive_media/images/rain_800.jpg");
+           }/* Background pictures for summary */
+        .snow {
+            background-image: url("responsive_media/images/snow_800.jpg");
+           }/* Background pictures for summary */
+        .fog {
+            background-image: url("responsive_media/images/fog_800.jpg");
+           }/* Background pictures for summary */
+        .clouds {
+            background-image: url("responsive_media/images/clouds_800.jpg");
+           }
+        #weatherContent{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        #weatherContent section{
+            width: 30%;
+        }
+         nav{
+             font-size: 1.5em;
+         }
+       
+         nav{
+             top: 0;
+             position: relative;
+         }
+
+         main section{
+            width: 30%;
+        }
+
+        #forecast{
+            display: block;
+        }
+
+        main aside{
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+       section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+       }
+    }

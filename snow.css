@@ -1,0 +1,41 @@
+/********************************
+* Default Styles - Mobile First
+********************************/
+
+.figured-images{
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: 1px;
+    width: 305px;
+}
+
+.large-caption {
+    display: none;
+}
+
+.small-caption{
+    display: block;
+}
+
+picture img{
+    width: 100%;
+}
+/********************************
+* Default Styles - Mobile First
+********************************/
+
+@media (min-width: 1000px){
+
+    .figured-images {
+        width: 505px;
+    }
+
+    .large-caption {
+        display: block;
+    }
+
+    .small-caption{
+        display: none;
+
+    }
+}
