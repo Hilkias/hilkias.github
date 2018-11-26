@@ -52,28 +52,8 @@
         Body Copy Font: Helvetica
          
         
-        <h3>Color</h3>
-    <img src= "images/color-swatches.jpeg">
-    <h2>Elements</h2>
-    <p> (add title attribute to each anchor) </p>
-    <h3>Navigation</h3>
-    <img src= "images/weather-nav-bar.png">
-    <p>Font and color scheme will be determined by you in consultation with your learning team using the supplied fonts and color swatches.</p>
-    <h3>Opaque rounded content box:</h3>
-    <img src= "images/weather-tile.png">
-    <p>    background-color: rgba(200,200,200,.6);
-            margin: .2em auto;
-            border: 1px solid;
-            border-radius: 15px;
-        </p>
-    <h2>Wireframe</h2>
-    <h3>Small screen</h3>
-    <img src= "images/franklin-small.png">
-    <h3>Large Screen</h3>
-    <img src= "images/franklin-large.png">
-</body>
-</html>
-
+        Colors
+        
         
         
                 
