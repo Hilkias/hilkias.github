@@ -5,6 +5,10 @@
   .hide {
       display: none;
     }
+    .topplus{
+        margin-top: 60px;
+        margin-bottom: -65px;
+    }
 /* 3. Typography section */
 h1,
 h2,
