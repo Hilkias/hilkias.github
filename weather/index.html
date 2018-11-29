@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Franklin, ID | Weather Site</title>
+    <title>Rexburg, ID | Weather Site</title>
     <meta name="description" content="Weather site plans.">
     <meta name="viewport" content="width=device-width">
     <link href="../style.css" rel="stylesheet" type="text/css">
@@ -22,9 +22,9 @@
             <li><a href="greenville.html">Greenville SC</a></li>
         </ul>
     </nav>
-
-    <main>
-        <h1>Franklin, Idaho</h1>
+    <p id="status"></p>
+    <main class="hide">
+        <h1>Rexburg, Idaho</h1>
         <p class="small">
             <span><strong>Zip:</strong> 83237 |</span>
             <span><b>Elevation:</b> 4501 ft. |</span>
@@ -40,13 +40,13 @@
             <br>
             <section>
                 <div id="dial" class="w"> </div>
-                 <h2><b>Wind</b></h2>
-                    N
-                    2 mph
-                    <p><strong>Direction: NW </strong></p>
-                    <p><b>Gusts: 5mph</b></p>
-                   
-               
+                <h2><b>Wind</b></h2>
+                N
+                2 mph
+                <p><strong>Direction: NW </strong></p>
+                <p><b>Gusts: 5mph</b></p>
+
+
             </section>
             <br>
             <section>
@@ -61,10 +61,12 @@
         </aside>
     </main>
     <footer>
-
+        <img src="images/logo-weather.png" alt="logo acuweather">
+        <br>
         &copy;2018 The Weather Site
     </footer>
 
+    <script src="js/geo_loc.js"></script>
     <script src="js/functions.js"></script>
 </body>
 

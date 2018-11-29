@@ -1,8 +1,10 @@
 /* 1. import statements * /
 @import url('https://fonts.googlepis.com/css?family=sansita');
 
-/* 2. General Style Rules * /
-
+/* 2. General Style Rules */
+  .hide {
+      display: none;
+    }
 /* 3. Typography section */
 h1,
 h2,
